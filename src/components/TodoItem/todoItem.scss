@@ -1,0 +1,16 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+
+  span {
+    flex: 1 0 0;
+    text-align: left;
+    flex-wrap: wrap;
+    &.completed {
+      text-decoration: line-through;
+      opacity: 0.5;
+    }
+  }
+}
